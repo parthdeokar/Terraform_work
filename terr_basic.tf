@@ -1,7 +1,6 @@
 provider  "aws" {
 region     = "ap-south-1"
-access_key = "****ASSRILDC5X**********"
-secret_key = "***gs6nmegwYA2nznlXxKH6mTbx************"
+profile = "testuser"
 }
 
 resource "aws_instance" "myos1" {
